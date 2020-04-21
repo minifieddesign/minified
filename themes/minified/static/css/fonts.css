@@ -1,0 +1,156 @@
+/* Ministry 
+-------------------------------------------------- */
+/* via Adobe Typekit Web Fonts */
+
+/* Ministry Light */
+/* font-family: ministry, sans-serif;
+font-weight: 300;
+font-style: normal; */
+
+/* Ministry Light Italic */
+/* font-family: ministry, sans-serif;
+font-weight: 300;
+font-style: italic; */
+
+/* Ministry Bold */
+/* font-family: ministry, sans-serif;
+font-weight: 500;
+font-style: normal; */
+
+/* Ministry Bold Italic */
+/* font-family: ministry, sans-serif;
+font-weight: 500;
+font-style: italic; */
+
+
+
+/* styles
+-------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: "ministry", "helvetica neue", sans-serif;
+    font-style: normal; 
+    color: #000;
+    line-height: 175%;
+}
+
+.h1 {
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+h2, h3, h4, h5, h6, p {
+    font-weight: 300;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: .25em;
+    text-transform: uppercase;
+}
+
+p,
+p .p-body {
+   letter-spacing: .07em;
+}
+
+/* sm down  */
+@media (max-width: 575px) { 
+  h1, h2, h3, h4, h5, h6, p {
+      font-size: .75rem; 
+      /* 9px */
+  }
+}
+
+/* md  */
+@media (max-width: 575px) { 
+  h1, h2, h3, h4, h5, h6, p {
+      font-size: .85em; 
+      /* 12px */
+  }
+}
+
+/* lg up  */
+@media (min-width: 992px) { 
+    h1, h2, h3, h4, h5, h6, p {
+        font-size: .9rem; 
+        /* 12px */
+    }
+  }
+
+
+
+/* body links  */
+p a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 2px;
+  padding: 0 1px 1px 1px;
+}
+
+p a:hover,
+p a:active {
+  font-style: italic;
+  color: #800300;
+  border-bottom-color: #800300;
+  text-decoration: none;
+}
+
+
+/* static buttons red */
+.btn, a {
+    color: #800300;
+}
+
+
+/* font size */
+@media (max-width: 991px) {
+  h1, h2, h3, h4, h5, h6, p {
+      font-size: 9px;
+    }
+}
+
+@media (min-width: 992px) {
+  h1, h2, h3, h4, h5, h6, p {
+    font-size: 10px;
+  }
+}
+
+
+
+/* on hover and active */
+.btn:hover,
+.btn:active a::after {
+   color: #800300 !important;
+   font-style: italic;
+   font-weight: 500;
+   letter-spacing: .25em;
+   text-transform: uppercase;
+   text-decoration: none;
+ }
+
+
+
+/* footer */
+.footer p,
+.footer-link,
+.footer-link a {
+   color: #C8C8C8 !important;
+   font-family: "ministry","helvetica neue", sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   letter-spacing: .1em;
+   line-height: 175%;
+}
+
+.footer-link.active,
+.footer-link a.active,
+.footer-link:hover,
+.footer-link:active  a::after {
+   color: #800300 !important;
+   font-family: "ministry","helvetica neue", sans-serif;
+   font-style: italic;
+   font-weight: 500;
+   text-decoration: none;
+ }
+ 
