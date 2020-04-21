@@ -18,8 +18,9 @@
   <!-- <meta> tag for the version of Hugo that generated the site. .Hugo.Generator outputs a complete HTML tag; e.g. <meta name="generator" content="Hugo 0.18" /> -->
   {{ hugo.Generator }}
 
-  <!-- {{ $assetBusting := not .Site.Params.disableAssetsBusting }} -->
-
+  <!-- Bootstrap Core CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  
   <!-- Custom CSS -->
   <link href="{{`css/styles.css` | relURL}}" rel="stylesheet" type="text/css">
   
@@ -27,13 +28,12 @@
   <link rel="stylesheet" href="https://use.typekit.net/iqt6cvd.css">
 
   <!-- favicon -->
-  <link rel="icon" href="images/tsb/tsb-favicon.png" type="image/png" sizes="16x16">
+  <link rel="icon" href="{{`images/mini/favicon.png` | relURL}}" type="image/png" sizes="16x16">
 
   <!-- Page Info -->
   <title>{{ .Site.Title }}</title>
   <meta name="description" content="Custom brand development services, including graphic design, photography, art direction, and creative strategy to better engage your audiences and achieve your business goals.">
   <meta name="author" content="Courtney DeKorte Aventura">
-  <!-- <script src="{{`js/nav.js` | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script> -->
   
   
 </head>

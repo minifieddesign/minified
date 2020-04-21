@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 
 baseURL = "https://minified.design/"
 title = "Minified Design"
-copyright = "© {year} <a href=\"https://minified.design\">Minified Design.</a> All rights reserved."
+copyright = "Copyright © {year} Minified Design LLC. All rights reserved."
 
 googleAnalytics = "UA-164160631-1"
 

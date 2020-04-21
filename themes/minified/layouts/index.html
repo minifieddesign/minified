@@ -1,22 +1,70 @@
 <!DOCTYPE html>
 <html>
-{{- partial "head.html" . -}}
+  {{- partial "head.html" . -}}
 
-    <body class="grid-container">
-        <!-- {{- partial "header.html" . -}} -->
+  <body>
+    
+    <!-- minified -->
+    <section>
+      <div class="container-fluid h-100">
 
-        <div class="main">
-            <div class="main-inner">
+        <!-- intro  -->
+        <div class="row d-flex justify-content-center align-items-center h-75" style="background-color:aquamarine;">
+            
+            <!-- section max-width -->
+            <div class="col-12 col-md-12 col-lg-10">
+                <div class="row d-flex justify-content-center align-items-center" style="background-color: burlywood;">
+                    <div class="col-12 col-md-11">
+                            
+                            <!-- start of section content -->
+                            <div class="row d-flex justify-content-center" style="background-color: pink;">
+                                <div class="col-12 text-center">
                 
-                <div class="content">
-                    {{ .Content }}
-                </div>
+                                    <h2>Minified.Design</h2>
+                                    <p>Brand Development Services</p>
+                                    <p> </p>
+                                </div><!-- col -->  
 
+                                
+                            </div><!-- row -->
+
+                        <!-- end of section content -->
+                        </div><!-- col / section max-width -->
+                    </div><!-- row -->
+                </div><!-- col / section max-width -->
+            </div><!-- row / end of intro -->
+
+        <!-- about  -->
+        <div class="row d-flex justify-content-center align-items-center h-25" style="background-color:aquamarine;">
+            
+            <!-- section max-width -->
+            <div class="col-12 col-md-12 col-lg-10">
+                <div class="row d-flex justify-content-center align-items-center" style="background-color: burlywood;">
+                    <div class="col-12 col-md-11">
+                            
+                            <!-- start of section content -->
+                            <div class="row d-flex justify-content-center" style="background-color: pink;">
+                                <div class="col-12 text-center">
                 
-            </div>
-        </div>
 
-        {{- partial "footer.html" . -}}
+                                    <p> About</p>
+                                </div><!-- col -->  
+
+                                
+                            </div><!-- row -->
+
+                        <!-- end of section content -->
+                        </div><!-- col / section max-width -->
+                    </div><!-- row -->
+                </div><!-- col / section max-width -->
+            </div><!-- row / end of about -->
+
+
+
+            </div><!-- container -->
+        </section>
+
+    {{- partial "footer.html" . -}}
 
     </body>
 </html>
