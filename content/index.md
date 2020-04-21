@@ -1,6 +1,6 @@
 ---
-title: ""
-slug: 
+title: "Minified Design"
+slug: index
 description: 
 keywords: 
 # meta keywords for SEO 
@@ -12,6 +12,4 @@ draft: true
 # change to "false" to publish 
 
 ---
-# Minified Design
-Brand Development Services
 

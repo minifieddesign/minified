@@ -53,26 +53,34 @@ p .p-body {
    letter-spacing: .07em;
 }
 
-/* md down  */
-@media (max-width: 991px) { 
+/* sm down  */
+@media (max-width: 575px) { 
   h1, h2, h3, h4, h5, h6, p {
-      font-size: .5625rem; 
+      font-size: .75rem; 
       /* 9px */
+  }
+}
+
+/* md  */
+@media (max-width: 575px) { 
+  h1, h2, h3, h4, h5, h6, p {
+      font-size: .85em; 
+      /* 12px */
   }
 }
 
 /* lg up  */
 @media (min-width: 992px) { 
     h1, h2, h3, h4, h5, h6, p {
-        font-size: .625rem; 
-        /* 10px */
+        font-size: .9rem; 
+        /* 12px */
     }
   }
 
 
 
 /* body links  */
-p .body a {
+p a {
   color: #000;
   text-decoration: none;
   border-bottom: 1px solid;
@@ -80,8 +88,8 @@ p .body a {
   padding: 0 1px 1px 1px;
 }
 
-p .body a:hover,
-p .body a:active {
+p a:hover,
+p a:active {
   font-style: italic;
   color: #800300;
   border-bottom-color: #800300;
