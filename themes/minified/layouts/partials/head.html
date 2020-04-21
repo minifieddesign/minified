@@ -1,0 +1,39 @@
+<html lang="{{ .Site.Language | default `en` }}" class="">
+  <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164160631-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-164160631-1');
+  </script>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- <meta> tag for the version of Hugo that generated the site. .Hugo.Generator outputs a complete HTML tag; e.g. <meta name="generator" content="Hugo 0.18" /> -->
+  {{ hugo.Generator }}
+
+  <!-- {{ $assetBusting := not .Site.Params.disableAssetsBusting }} -->
+
+  <!-- Custom CSS -->
+  <link href="{{`css/styles.css` | relURL}}" rel="stylesheet" type="text/css">
+  
+  <!-- Custom Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/iqt6cvd.css">
+
+  <!-- favicon -->
+  <link rel="icon" href="images/tsb/tsb-favicon.png" type="image/png" sizes="16x16">
+
+  <!-- Page Info -->
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="Custom brand development services, including graphic design, photography, art direction, and creative strategy to better engage your audiences and achieve your business goals.">
+  <meta name="author" content="Courtney DeKorte Aventura">
+  <!-- <script src="{{`js/nav.js` | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end }}"></script> -->
+  
+  
+</head>
